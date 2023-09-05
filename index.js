@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/persona', personaRoute);
 
 app.get('/', (req, res) => {
-  res.send("Hola desde UTEC Taller DevOps 2023");
+  res.send("Hola desde UTEC Taller DevOps 2023 con Webhooks");
 });
 
 app.listen(port, () => {

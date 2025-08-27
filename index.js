@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/persona', personaRoute);
 
 app.get('/', (req, res) => {
-  res.send("Hola desde el repo original");
+  res.send("Esto es un cambio");
 });
 
 app.listen(port, () => {
